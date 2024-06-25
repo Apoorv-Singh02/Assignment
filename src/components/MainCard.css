@@ -1,0 +1,6 @@
+.main-card {
+    display: flex;
+    width: 90vw;
+    margin: 5vw;
+    flex-direction: column;
+}

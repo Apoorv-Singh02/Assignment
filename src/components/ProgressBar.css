@@ -1,0 +1,19 @@
+.progress-bg {
+    width: 80%;
+    background-color: rgb(179, 178, 178);
+    height: 10px;
+    z-index: 0;
+    position: relative;
+    border-radius: 50px;
+}
+
+.progress-bar {
+    background-color: rgb(74, 74, 213);
+    height: 10px;
+    z-index: 1;
+    position: absolute;
+    top: 0;
+    left: 0;
+    transition: 1s;
+    border-radius: 50px;
+}

@@ -1,0 +1,16 @@
+.slidebar {
+    display: grid;
+    margin-top: 50px;
+    position: relative;
+    grid-template-columns: 20% 20% 20% 20% 20%;
+}
+
+.line {
+    position: absolute;
+    left: 10%;
+    width: 80%;
+    background-color: rgb(222, 222, 222);
+    z-index: -1;
+    height: 5px;
+    top: 8px
+}

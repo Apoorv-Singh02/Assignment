@@ -1,0 +1,30 @@
+.selector {
+    position: absolute;
+    left: 9%;
+}
+
+.slider {
+
+    height: 20px;
+    width: 20px;
+    border: solid chartreuse;
+    border-width: 5px;
+    z-index: 5;
+    background-color: white;
+    position: absolute;
+    border-radius: 50%;
+    transition: transform 0.5s;
+    margin-top: -3px;
+}
+
+.trail {
+    height: 10px;
+    z-index: 2;
+    background-color: chartreuse;
+    position: relative;
+    transition: width 0.5s;
+    border-top-left-radius: 50px;
+    border-bottom-left-radius: 50px;
+    top: 5px;
+    left: 4px;
+}
